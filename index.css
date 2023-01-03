@@ -1,0 +1,430 @@
+body{
+  margin: 0;
+    
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: none;
+  border: none;
+  width: 100%;
+  position: fixed;
+  
+}
+
+.headerlogo {
+  display: flex;
+  flex-direction: row;
+  border: none;  
+}
+
+.menulist1{
+  display: flex;
+  flex-direction: row;  
+}
+
+.buttonHeader:hover{
+  background-color: rgba(176, 173, 173, 0.358);
+}
+
+.menulist2 {
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+}
+
+.buttonHeader{
+  border: transparent;
+  background-color: transparent;
+  font-size: small;
+  font-family: 'Montserrat'; 
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.buttonHeader1{
+  border: transparent;
+  background-color: transparent;
+  font-size: small;
+  font-family: 'Montserrat'; 
+  font-weight: bold;
+  cursor: pointer;
+  
+  
+}
+
+.carImage{
+  width: 100%;
+  height: auto;
+  align-items: center;
+  
+}
+
+.modelName{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 50%;
+  left: 45%;
+
+}
+
+.scheduleDrive{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 63%;
+  left: 45%;
+  cursor: pointer;
+
+}
+
+.scheduleDrive:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.buttonImage1{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 120%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage2{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 120%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName2{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 190%;
+  left: 45%;
+
+}
+
+.scheduleDrive2{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 203%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.scheduleDrive2:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.buttonImage3{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 260%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage4{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 260%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName3{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 315%;
+  left: 45%;
+
+}
+
+.scheduleDrive3{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 328%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.scheduleDrive3:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.buttonImage5{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 385%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage6{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 385%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName4{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 440%;
+  left: 45%;
+
+}
+
+.scheduleDrive4{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 453%;
+  left: 45%;
+  cursor: pointer;
+}
+
+.scheduleDrive4:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+.buttonImage7{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 510%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage8{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 510%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName5{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 565%;
+  left: 40%;
+
+}
+
+.scheduleDrive5{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 578%;
+  left: 40%;  
+}
+
+.buttonImage9{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 635%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage10{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 635%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName6{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 690%;
+  left: 40%;
+
+}
+
+.scheduleDrive6{
+  font-family: 'Montserrat';
+  font-size: small;
+  position: absolute;
+  top: 703%;
+  left: 38%;
+  
+}
+
+.buttonImage11{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 760%;
+  left: 32%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.buttonImage12{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 300px;
+  width: 258px;
+  height: 40px;
+  top: 760%;
+  left: 50%;
+  border-color: transparent;
+  background-color:rgb(238,236,235);
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modelName7{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 250%;
+  position: absolute;  
+  top: 840%;
+  left: 43%;
+
+}
+
+.buttonImage13{
+  font-family: 'Montserrat';
+  position: absolute;
+  width: 258px;
+  height: 40px;
+  top: 910%;
+  left: 43%;
+  border-color: transparent;
+  background-color: rgb(21,24,30);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.buttonFooter{
+  border: transparent;
+  background-color: transparent;
+  font-size: smaller;
+  font-family: 'Montserrat';
+  cursor: pointer;  
+}
+
+.footerDiv{
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-evenly;
+}
